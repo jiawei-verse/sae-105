@@ -1,0 +1,91 @@
+[
+    {   
+        "id": "1", 
+        "titre": "Whims of Fate",
+        "artiste": "Lyn & ALTUS SOUND TEAM", 
+        "album": "Persona 5 (OST)",
+        "artwork": "persona5.jpg", 
+        "album-url": "https://music.apple.com/fr/album/persona-5-original-soundtrack/1226945984", 
+        "desc": "La bande son de la série de jeu Persona est souvent décrite comme une icône dans l'univers musical du jeu vidéo. L'album du 5e opus de la saga, menée par ALTUS Sound Team, présente une ambiance musicale encore plus sophistiquée que jamais grâce à un rythme acid jazz et harmonieux.",
+        "credits": "℗ ALTUS / SEGA (All rights reserved.)",
+        "audio": "The Whims of Fate.mp3"
+    },
+    {   
+        "id": "2", 
+        "titre": "Escape Room", 
+        "artiste": "fromis_9", 
+        "album": "Midnight Guest",
+        "artwork": "midnight guest.jpg",
+        "album-url": "https://music.apple.com/fr/album/midnight-guest-ep/1604496144",
+        "desc": "Dans cet EP 'Midnight Guest', le groupe féminin de pop coréenne Fromis_9 pose les bases pour une nouvelle ère d'affirmation et d'élégance. Leurs voix angéliques viennent se mélanger à une ambiance jazz, R&B et rétro ; complétée par une touche de synthé.",
+        "credits": "℗ 2022 PLEDIS Entertainment",
+        "audio": "Escape Room.mp3"
+    },
+    {   
+        "id": "3", 
+        "titre": "Love Me Like", 
+        "artiste": "ODD EYE CIRCLE", 
+        "album": "Version Up",
+        "artwork": "version up.jpg",
+        "album-url": "https://music.apple.com/fr/album/odd-eye-circle-version-up-ep/1737940719",
+        "desc": "Avec leur dernier mini album 'Version Up', le trio coréen Odd Eye Circle fait son grand retour dans la pop coréenne. Après LOONA, les 3 chanteuses reviennent avec le groupe ARTMS en gardant leur identité musicale rêveuse et électro ; tout en ouvrant un nouveau chapitre plus fort, sensuel et mystique." ,
+        "credits": "℗ 2023 MODHAUS",
+        "audio": "Love Me Like.mp3"
+    },
+    {   
+        
+        "id": "4", 
+        "titre": "Soul Lady", 
+        "artiste": "YUKIKA", 
+        "album": "Soul Lady",
+        "artwork": "soul lady.jpg",
+        "album-url": "https://music.apple.com/fr/album/soul-lady/1524421699",
+        "desc": "Originaire du Japon, Yukika Teramoto décide de partir se baser en Corée du Sud afin d'accomplir sa carrière de chanteuse. C'est en entrant dans l'industrie K-Pop qu'elle se fait connaître pour son projet musical culte 'SOUL LADY', qui nous replonge dans l'ère iconique japonaise de la citypop.",
+        "credits": "℗ 2020 ESTIMATE, LLC., under the licence of DREAMUS",
+        "audio": "Soul Lady.mp3"
+    },
+    {   
+        "id": "5", 
+        "titre": "Suddenly", 
+        "artiste": "Yerin Baek", 
+        "album": "Onstage Digging Club Seoul THEME 01",
+        "artwork": "suddenly.jpg",
+        "album-url": "https://music.apple.com/fr/album/suddenly-digging-club-seoul-version/1556787227?i=1556787228",
+        "desc": "Yerin Baek est une artiste indépendante coréenne, qui se fait connaître pour ses productions musicales et performances vocales douces. Suddenly démontre parfaitement ces capacités de chant tout en complétant sa voix par une douce mélodie jazz, club et disco.",
+        "credits": "℗ 2019 Blue Vinyl, under the licence of POCLANOS",
+        "audio": "Suddenly.mp3"
+    },
+    {   
+        "id": "6", 
+        "titre": "Tell Me Now", 
+        "artiste": "BRAVE GIRLS & LOONA", 
+        "album": "Queendom 2",
+        "artwork": "tell me now.jpg",
+        "album-url": "https://music.apple.com/fr/album/tell-me-now/1623763393?i=1623763554",
+        "desc": "Tell Me Now est une performance de l'émisssion Queendom 2 des membres Yves, Olivia Hye, Choerry et Heejin de LOONA et Eunji des Brave Girls. Le rythme acoustique et grandiose pose les bases pour une choréographie à la fois sensuelle et fatale.",
+        "credits": "℗ 2022 Stone Music Entertainment",
+        "audio": "Tell Me Now.mp3"
+    },
+    {   
+        "id": "7", 
+        "titre": "Midnight Rendezvous", 
+        "artiste": "Casiopea", 
+        "album": "CASIOPEA",
+        "artwork": "casiopea.jpg",
+        "album-url": "https://music.apple.com/fr/album/casiopea/1535034715",
+        "desc": "Casiopea est un groupe de jazz fusion japonais formé en 1976. Leur album éponyme CASIOPEA, mélangeant jazz, funk et rock, est rapidement devenue un classique du genre.",
+        "credits": "℗ 1979 ALFA MUSIC, INC.",
+        "audio": "Midnight Rendezvous.mp3"
+    },
+    {   
+        "id": "8", 
+        "titre": "Modal Soul",
+        "artiste": "Nujabes", 
+        "album": "Modal Soul",
+        "artwork": "modal soul.jpg",
+        "album-url": "https://music.apple.com/fr/album/modal-soul/1078914477",
+        "desc": "Modal Soul est la parfaite représentation du Jazz sous sa forme de Jazz Fusion. En effet, ce dérivé qui a été très populaire au Japon, ici interprété par le producteur Nujabes, chercher à mélanger différents genres tel que le Hip-Hop, la Disco ou encore le rock au Jazz ; donnant lieu à une expérience musicale riche en profondeur.",
+        "credits": "℗ Hydeout Productions",
+        "audio": "Modal Soul.mp3"
+    }
+]

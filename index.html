@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendezvous at Midnight</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./public/images/Logo.svg" alt="RendezVous at Midnight (Logo)">
+        <a class="secondary btn" id="playlist-link" href="https://music.apple.com/fr/playlist/rendezvous-at-midnight/pl.u-06oxxdNCYr5kkRa?l=en" id="playlist-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.667 8.66667V12.6667C12.667 13.0203 12.5265 13.3594 12.2765 13.6095C12.0264 13.8595 11.6873 14 11.3337 14H4.00033C3.6467 14 3.30756 13.8595 3.05752 13.6095C2.80747 13.3594 2.66699 13.0203 2.66699 12.6667V5.33333C2.66699 4.97971 2.80747 4.64057 3.05752 4.39052C3.30756 4.14048 3.6467 4 4.00033 4H8.00033M10.667 2H14.667M14.667 2V6M14.667 2L7.33366 9.33333" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+            Écouter la playlist complète
+        </a>
+    </header>
+
+    <main>
+        <ul class="selection-musicale">
+            <div class="nav">
+                <a class="float icon btn" id="prev">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.9993 13.3332L6.33268 7.99984L12.9993 2.6665V13.3332Z" fill="white"/>
+                        <path d="M3.66602 12.6665V3.33317M12.9993 13.3332L6.33268 7.99984L12.9993 2.6665V13.3332Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a class="float icon btn" id="next">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.66602 2.6665L10.3327 7.99984L3.66602 13.3332V2.6665Z" fill="white"/>
+                        <path d="M12.9993 3.33317V12.6665M3.66602 2.6665L10.3327 7.99984L3.66602 13.3332V2.6665Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                
+                </a>
+            </div>
+        </ul>
+    </main>
+
+    <footer>
+        <a class="inline-link" id="open-credits">Mentions légales</a>
+        <button class="secondary btn" id="open-form">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9993 8.00016C14.9993 11.6821 12.0146 14.6668 8.33268 14.6668C4.65078 14.6668 1.66602 11.6821 1.66602 8.00016C1.66602 4.31826 4.65078 1.3335 8.33268 1.3335C12.0146 1.3335 14.9993 4.31826 14.9993 8.00016ZM9.33268 5.3335C9.33268 4.78121 8.88497 4.3335 8.33268 4.3335C7.7804 4.3335 7.33268 4.78121 7.33268 5.3335V7.00016H5.66602C5.11373 7.00016 4.66602 7.44788 4.66602 8.00016C4.66602 8.55245 5.11373 9.00016 5.66602 9.00016H7.33268V10.6668C7.33268 11.2191 7.7804 11.6668 8.33268 11.6668C8.88497 11.6668 9.33268 11.2191 9.33268 10.6668V9.00016H10.9993C11.5516 9.00016 11.9993 8.55245 11.9993 8.00016C11.9993 7.44788 11.5516 7.00016 10.9993 7.00016H9.33268V5.3335Z" fill="white"/>
+                <path d="M7.33268 7.00016V7.50016C7.60882 7.50016 7.83268 7.27631 7.83268 7.00016H7.33268ZM7.33268 9.00016H7.83268C7.83268 8.72402 7.60882 8.50016 7.33268 8.50016V9.00016ZM9.33268 9.00016V8.50016C9.05654 8.50016 8.83268 8.72402 8.83268 9.00016H9.33268ZM9.33268 7.00016H8.83268C8.83268 7.27631 9.05654 7.50016 9.33268 7.50016V7.00016ZM8.33268 15.1668C12.2907 15.1668 15.4993 11.9582 15.4993 8.00016H14.4993C14.4993 11.4059 11.7384 14.1668 8.33268 14.1668V15.1668ZM1.16602 8.00016C1.16602 11.9582 4.37464 15.1668 8.33268 15.1668V14.1668C4.92693 14.1668 2.16602 11.4059 2.16602 8.00016H1.16602ZM8.33268 0.833496C4.37464 0.833496 1.16602 4.04212 1.16602 8.00016H2.16602C2.16602 4.59441 4.92693 1.8335 8.33268 1.8335V0.833496ZM15.4993 8.00016C15.4993 4.04212 12.2907 0.833496 8.33268 0.833496V1.8335C11.7384 1.8335 14.4993 4.59441 14.4993 8.00016H15.4993ZM8.33268 4.8335C8.60882 4.8335 8.83268 5.05735 8.83268 5.3335H9.83268C9.83268 4.50507 9.16111 3.8335 8.33268 3.8335V4.8335ZM7.83268 5.3335C7.83268 5.05735 8.05654 4.8335 8.33268 4.8335V3.8335C7.50426 3.8335 6.83268 4.50507 6.83268 5.3335H7.83268ZM7.83268 7.00016V5.3335H6.83268V7.00016H7.83268ZM5.66602 7.50016H7.33268V6.50016H5.66602V7.50016ZM5.16602 8.00016C5.16602 7.72402 5.38987 7.50016 5.66602 7.50016V6.50016C4.83759 6.50016 4.16602 7.17174 4.16602 8.00016H5.16602ZM5.66602 8.50016C5.38987 8.50016 5.16602 8.27631 5.16602 8.00016H4.16602C4.16602 8.82859 4.83759 9.50016 5.66602 9.50016V8.50016ZM7.33268 8.50016H5.66602V9.50016H7.33268V8.50016ZM7.83268 10.6668V9.00016H6.83268V10.6668H7.83268ZM8.33268 11.1668C8.05654 11.1668 7.83268 10.943 7.83268 10.6668H6.83268C6.83268 11.4953 7.50426 12.1668 8.33268 12.1668V11.1668ZM8.83268 10.6668C8.83268 10.943 8.60882 11.1668 8.33268 11.1668V12.1668C9.16111 12.1668 9.83268 11.4953 9.83268 10.6668H8.83268ZM8.83268 9.00016V10.6668H9.83268V9.00016H8.83268ZM10.9993 8.50016H9.33268V9.50016H10.9993V8.50016ZM11.4993 8.00016C11.4993 8.27631 11.2755 8.50016 10.9993 8.50016V9.50016C11.8278 9.50016 12.4993 8.82859 12.4993 8.00016H11.4993ZM10.9993 7.50016C11.2755 7.50016 11.4993 7.72402 11.4993 8.00016H12.4993C12.4993 7.17174 11.8278 6.50016 10.9993 6.50016V7.50016ZM9.33268 7.50016H10.9993V6.50016H9.33268V7.50016ZM8.83268 5.3335V7.00016H9.83268V5.3335H8.83268Z" fill="white"/>
+            </svg>                
+            <span>Suggérer une chanson</span>
+        </button>
+    </footer>
+
+    <!-- Modales -->
+
+    <div class="modal-container" id="credits">
+        <div class="modal">
+            <button class="icon btn close" id="close-credits">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4L4 12M4 4L12 12" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+            
+            <h2>Mention légales</h2>
+            
+            <section id="editeur">
+                <h3>Éditeur</h3>
+                <p>©  Designé, Écrit, Codé et Réalisé par <a class="inline-link" href="https://jiawei.live/">JIAWEI / THOMAS PANG</a> - 2025.</p>
+            </section>
+            <section id="propriété-intellectuelle">
+                <h3>Propriété intellectuelle</h3>
+                <ul id="song-credits">
+                    <h4>Droits musicaux</h4>
+                    <p>Les chansons et les pochettes de cette playlist sont la propriété de leurs auteurs respectifs, tous droits réservés. Elles sont utilisées ici à des fins de démonstration.</p>
+                </ul>
+                <div id="site-credits">
+                    <h4>Site Web</h4>
+                    <p><strong>Grained.js</strong><br>by Sarath Saleem.<br>Licensed under the <a href="http://opensource.org/licenses/MIT" class="inline-link" target="_blank">MIT License</a>.</p>
+                    <p>Les éléments, tel que le logotype, les textes et les illustrations, qui ne sont pas crédités dans ce texte sont la propriété exclusive de JIAWEI.</p>
+                </div>
+            </section>
+            <section id="confidentialité">
+                <h3>Politique de confidentialité</h3>
+                <p>Tous les données personnelles demandées par le formulaire sont collectée par l'API Portrait, créée et gérée par <a class="inline-link" href="mailto:philippe.gambette@univ-eiffel.fr">Philippe Gambette</a>. Ces données seront conservées pour un durée maximale de un an.</p>
+                <p>Conformément aux dispositions de la loi « informatique et libertés » et du RGPD, tout utilisateur dispose d'un droit d'accès, de rectification et d'opposition aux données personnelles le concernant.</p>
+            </section>
+            <section id="hébergement">
+                <h3>Hébergement</h3>
+                <p>Le site web est hébergé par o2switch, société au capital de 100 000€, immatriculée au RCS de Clermont Ferrand sous le numéro Siret 510 909 807, dont le siège social est situé 222-224 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand.</p>
+            </section>
+            <section id="contact">
+                <h3>Contact</h3>
+                <p>Pour toute question ou demande, veuillez contacter THOMAS PANG par e-mail à <a class="inline-link" href="mailto:contact@jiawei.live">contact@jiawei.live</a></p>
+            </section>
+            <section id="Droit applicable">
+                <h3>Droit applicable</h3>
+                <p>Les présentes mentions légales sont soumises au droit français. En cas de litige, les tribunaux français seront compétents.</p>
+            </section>
+        </div>
+    </div>
+
+    <div class="modal-container" id="submission">
+        <div class="modal">
+            <button class="icon btn close" id="close-form">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4L4 12M4 4L12 12" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+            <h2>Suggérer une chanson</h2>
+    
+            <form action="">
+                <div class="input-wrapper">
+                    <label for="submission-name">Surnom</label>
+                    <input type="text" id="submission-name" name="name" autocomplete="username" placeholder="@pseudonyme">
+                </div>
+                <div class="input-wrapper">
+                    <label for="submission-email">Adresse mail *</label>
+                    <input type="email" id="submission-email" name="email" autocomplete="email" placeholder="votreadresse@mail.com">
+                </div>
+                <div class="input-wrapper">
+                    <label for="submission-title">Titre de la chanson et artiste*</label>
+                    <input type="text" id="submission-title" name="title" placeholder="Artiste - Titre de la chanson">
+                </div>
+                <div class="input-wrapper">
+                    <label for="submission-url">Lien de la chanson</label>
+                    <input type="text" id="submission-url" name="url" placeholder="https://music.apple.com…">
+                </div>
+                <div class="input-wrapper">
+                    <label for="submission-msg">Votre message *</label>
+                    <textarea id="submission-msg" name="message" rows="6" cols="33" placeholder="Pourquoi vous suggérer cette chanson ?"></textarea>
+                </div>
+                <input class="main btn" type="button" id="submit" value="Envoyer">
+                <p>* Ces champs sont obligatoires</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Importations -->
+
+    <svg class="clipping-mask">
+        <defs>
+            <clipPath id="disc-mask" clipPathUnits="objectBoundingBox">
+                <path
+                    d="M1 0.5C1 0.776142 0.776142 1 0.5 1C0.223858 1 0 0.776142 0 0.5C0 0.223858 0.223858 0 0.5 0C0.776142 0 1 0.223858 1 0.5ZM0.420083 0.5C0.420083 0.544137 0.455863 0.579917 0.5 0.579917C0.544137 0.579917 0.579917 0.544137 0.579917 0.5C0.579917 0.455863 0.544137 0.420083 0.5 0.420083C0.455863 0.420083 0.420083 0.455863 0.420083 0.5Z"
+                    fill="black" />
+            </clipPath>
+        </defs>
+    </svg>
+
+    <script type="module" src="./scripts/script.js" defer></script>
+    <script src="./scripts/grained.js"></script>
+</body>
+
+</html>
+
